@@ -1,0 +1,3 @@
+#Mon Apr 19 20:55:32 BRT 2010
+eclipse.preferences.version=1
+org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1271718743155" defaultVMConnector\="">\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\n<vm id\="1271718743155" javadocURL\="http\://java.sun.com/javase/6/docs/api/" name\="SUN-SDK-x86_64-1.6.0_20" path\="/opt/SUN-SDK-x86_64-1.6.0_20"/>\n</vmType>\n</vmSettings>\n

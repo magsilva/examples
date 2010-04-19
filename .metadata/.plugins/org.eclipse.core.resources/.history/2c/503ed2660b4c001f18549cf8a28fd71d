@@ -1,0 +1,55 @@
+package vending;
+
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class TestDriver
+{
+	public static void main(String[] args)
+	{
+		VendingMachine machine = new VendingMachine();
+		BufferedReader inputReader = null;
+		String command = null;
+
+		if (args.length < 1) {
+			inputReader = new BufferedReader(new InputStreamReader(System.in));
+		} else {
+			try {
+				inputReader = new BufferedReader(new FileReader(args[0]));
+			} catch (FileNotFoundException e) {
+				System.err.println("Cannot read file, falling back to read from the stdin");
+				inputReader = new BufferedReader(new InputStreamReader(System.in));
+			}
+		}
+
+		System.out.println("VendingMachine is operational!");
+		try {
+			while ((command = inputReader.readLine()) != null) {
+				StringTokenizer tokens = new StringTokenizer(command);
+
+				if (tokens.hasMoreTokens()) {
+					String methodName = tokens.nextToken();
+					if (methodName.equals("insert")) {
+						machine.insertCoin();
+					} else if (methodName.equals("return")) {
+						machine.returnCoins();
+					} else if (methodName.equals("show")) {
+						System.out.println(machine.listItems());
+					} else if (methodName.equals("select")) {
+						try {
+							String value = tokens.nextToken();
+							machine.vendItem(Integer.parseInt(value));
+						} catch (IllegalArgumentException e) {
+							System.out.println(e.getMessage());
+						} catch (Exception e) {
+							System.out.println("You must enter a number to select a product.");
+						}
+					}
+				}
+			}
+		} catch (IOException e) {
+			System.err.println("Error reading user commands. Bailing out...");
+		}
+		System.out.println("VendingMachine has been turned off");
+	}
+}

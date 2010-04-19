@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+installed,bundle,org.python.pydev.templates,1.5.6.2010033101,"org.python.pydev.templates",1271718982481
+installed,bundle,sf.eclipse.javacc,1.5.22,"sf.eclipse.javacc",1271718982482
+stopped,bundle,com.python.pydev.fastparser,1.5.5.2010030420,"com.python.pydev.fastparser",1271718982531
+unresolved,bundle,com.python.pydev.fastparser,1.5.5.2010030420,"com.python.pydev.fastparser",1271718982552
+uninstalled,bundle,com.python.pydev.fastparser,1.5.5.2010030420,"com.python.pydev.fastparser",1271718982564
+unresolved,bundle,org.eclipse.mylyn.discovery.core,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.discovery.core",1271718982569
+uninstalled,bundle,org.eclipse.mylyn.discovery.core,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.discovery.core",1271718982569
+stopped,bundle,com.python.pydev,1.5.5.2010030420,"com.python.pydev",1271718982570
+unresolved,bundle,com.python.pydev,1.5.5.2010030420,"com.python.pydev",1271718982590
+uninstalled,bundle,com.python.pydev,1.5.5.2010030420,"com.python.pydev",1271718982591
+stopped,bundle,org.python.pydev,1.5.5.2010030420,"org.python.pydev",1271718982596
+unresolved,bundle,org.python.pydev,1.5.5.2010030420,"org.python.pydev",1271718982622
+uninstalled,bundle,org.python.pydev,1.5.5.2010030420,"org.python.pydev",1271718982623
+stopped,bundle,net.sf.jautodoc,1.6.0,"net.sf.jautodoc",1271718982623
+unresolved,bundle,net.sf.jautodoc,1.6.0,"net.sf.jautodoc",1271718982628
+uninstalled,bundle,net.sf.jautodoc,1.6.0,"net.sf.jautodoc",1271718982628
+unresolved,bundle,net.sf.jautodoc.velocity,1.6.0,"net.sf.jautodoc.velocity",1271718982629
+uninstalled,bundle,net.sf.jautodoc.velocity,1.6.0,"net.sf.jautodoc.velocity",1271718982629
+stopped,bundle,com.python.pydev.debug,1.5.5.2010030420,"com.python.pydev.debug",1271718982630
+unresolved,bundle,com.python.pydev.debug,1.5.5.2010030420,"com.python.pydev.debug",1271718982631
+uninstalled,bundle,com.python.pydev.debug,1.5.5.2010030420,"com.python.pydev.debug",1271718982632
+stopped,bundle,org.python.pydev.customizations,1.5.5.2010030420,"org.python.pydev.customizations",1271718982632
+unresolved,bundle,org.python.pydev.customizations,1.5.5.2010030420,"org.python.pydev.customizations",1271718982635
+uninstalled,bundle,org.python.pydev.customizations,1.5.5.2010030420,"org.python.pydev.customizations",1271718982635
+stopped,bundle,org.python.pydev.debug,1.5.5.2010030420,"org.python.pydev.debug",1271718982637
+unresolved,bundle,org.python.pydev.debug,1.5.5.2010030420,"org.python.pydev.debug",1271718982645
+uninstalled,bundle,org.python.pydev.debug,1.5.5.2010030420,"org.python.pydev.debug",1271718982645
+stopped,bundle,org.python.pydev.parser,1.5.5.2010030420,"org.python.pydev.parser",1271718982646
+unresolved,bundle,org.python.pydev.parser,1.5.5.2010030420,"org.python.pydev.parser",1271718982647
+uninstalled,bundle,org.python.pydev.parser,1.5.5.2010030420,"org.python.pydev.parser",1271718982647
+stopped,bundle,com.python.pydev.refactoring,1.5.5.2010030420,"com.python.pydev.refactoring",1271718982647
+unresolved,bundle,com.python.pydev.refactoring,1.5.5.2010030420,"com.python.pydev.refactoring",1271718982651
+uninstalled,bundle,com.python.pydev.refactoring,1.5.5.2010030420,"com.python.pydev.refactoring",1271718982652
+stopped,bundle,org.python.pydev.refactoring,1.5.5.2010030420,"org.python.pydev.refactoring",1271718982652
+unresolved,bundle,org.python.pydev.refactoring,1.5.5.2010030420,"org.python.pydev.refactoring",1271718982653
+uninstalled,bundle,org.python.pydev.refactoring,1.5.5.2010030420,"org.python.pydev.refactoring",1271718982653
+stopped,bundle,org.python.pydev.core,1.5.5.2010030420,"org.python.pydev.core",1271718982654
+unresolved,bundle,org.python.pydev.core,1.5.5.2010030420,"org.python.pydev.core",1271718982654
+uninstalled,bundle,org.python.pydev.core,1.5.5.2010030420,"org.python.pydev.core",1271718982654
+stopped,bundle,net.sourceforge.texlipse,1.3.0,"net.sourceforge.texlipse",1271718982655
+unresolved,bundle,net.sourceforge.texlipse,1.3.0,"net.sourceforge.texlipse",1271718982664
+uninstalled,bundle,net.sourceforge.texlipse,1.3.0,"net.sourceforge.texlipse",1271718982665
+stopped,bundle,org.python.pydev.ast,1.5.5.2010030420,"org.python.pydev.ast",1271718982665
+unresolved,bundle,org.python.pydev.ast,1.5.5.2010030420,"org.python.pydev.ast",1271718982666
+uninstalled,bundle,org.python.pydev.ast,1.5.5.2010030420,"org.python.pydev.ast",1271718982666
+stopped,bundle,com.python.pydev.analysis,1.5.5.2010030420,"com.python.pydev.analysis",1271718982666
+unresolved,bundle,com.python.pydev.analysis,1.5.5.2010030420,"com.python.pydev.analysis",1271718982671
+uninstalled,bundle,com.python.pydev.analysis,1.5.5.2010030420,"com.python.pydev.analysis",1271718982671
+stopped,bundle,org.python.pydev.help,1.5.5.2010030420,"org.python.pydev.help",1271718982672
+unresolved,bundle,org.python.pydev.help,1.5.5.2010030420,"org.python.pydev.help",1271718982672
+uninstalled,bundle,org.python.pydev.help,1.5.5.2010030420,"org.python.pydev.help",1271718982672
+unresolved,bundle,org.eclipse.mylyn,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn",1271718982672
+uninstalled,bundle,org.eclipse.mylyn,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn",1271718982673
+stopped,bundle,sf.eclipse.javacc,1.5.21,"sf.eclipse.javacc",1271718982673
+unresolved,bundle,sf.eclipse.javacc,1.5.21,"sf.eclipse.javacc",1271718982687
+uninstalled,bundle,sf.eclipse.javacc,1.5.21,"sf.eclipse.javacc",1271718982688
+stopped,bundle,com.python.pydev.codecompletion,1.5.5.2010030420,"com.python.pydev.codecompletion",1271718982689
+unresolved,bundle,com.python.pydev.codecompletion,1.5.5.2010030420,"com.python.pydev.codecompletion",1271718982690
+uninstalled,bundle,com.python.pydev.codecompletion,1.5.5.2010030420,"com.python.pydev.codecompletion",1271718982690
+stopped,bundle,org.python.pydev.templates,1.5.5.2010030420,"org.python.pydev.templates",1271718982690
+unresolved,bundle,org.python.pydev.templates,1.5.5.2010030420,"org.python.pydev.templates",1271718982691
+uninstalled,bundle,org.python.pydev.templates,1.5.5.2010030420,"org.python.pydev.templates",1271718982691
+unresolved,bundle,org.eclipse.mylyn.discovery.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.discovery.ui",1271718982693
+uninstalled,bundle,org.eclipse.mylyn.discovery.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.discovery.ui",1271718982693
+stopped,bundle,org.python.pydev.jython,1.5.5.2010030420,"org.python.pydev.jython",1271718982693
+unresolved,bundle,org.python.pydev.jython,1.5.5.2010030420,"org.python.pydev.jython",1271718982695
+uninstalled,bundle,org.python.pydev.jython,1.5.5.2010030420,"org.python.pydev.jython",1271718982695
+stopped,bundle,org.python.pydev.mylyn,0.3,"org.python.pydev.mylyn",1271718982930
+unresolved,bundle,org.python.pydev.mylyn,0.3,"org.python.pydev.mylyn",1271718982931
+resolved,bundle,sf.eclipse.javacc,1.5.22,"sf.eclipse.javacc",1271718982974
+resolved,bundle,org.python.pydev.help,1.5.6.2010033101,"org.python.pydev.help",1271718982975
+resolved,bundle,org.python.pydev.core,1.5.6.2010033101,"org.python.pydev.core",1271718982976
+resolved,bundle,org.python.pydev.parser,1.5.6.2010033101,"org.python.pydev.parser",1271718982977
+resolved,bundle,org.python.pydev.jython,1.5.6.2010033101,"org.python.pydev.jython",1271718982978
+resolved,bundle,org.python.pydev.ast,1.5.6.2010033101,"org.python.pydev.ast",1271718982979
+resolved,bundle,org.python.pydev,1.5.6.2010033101,"org.python.pydev",1271718982987
+resolved,bundle,org.python.pydev.templates,1.5.6.2010033101,"org.python.pydev.templates",1271718982990
+resolved,bundle,org.python.pydev.refactoring,1.5.6.2010033101,"org.python.pydev.refactoring",1271718982992
+resolved,bundle,org.python.pydev.debug,1.5.6.2010033101,"org.python.pydev.debug",1271718982995
+resolved,bundle,org.python.pydev.customizations,1.5.6.2010033101,"org.python.pydev.customizations",1271718982997
+resolved,bundle,org.python.pydev.django,1.5.6.2010033101,"org.python.pydev.django",1271718982999
+resolved,bundle,org.eclipse.mylyn,3.3.3.v20100330-0200-e3x,"org.eclipse.mylyn",1271718983000
+resolved,bundle,org.python.pydev.mylyn,0.3,"org.python.pydev.mylyn",1271718983001
+resolved,bundle,org.eclipse.mylyn.discovery.core,3.3.3.v20100330-0200-e3x,"org.eclipse.mylyn.discovery.core",1271718983002
+resolved,bundle,org.eclipse.mylyn.discovery.ui,3.3.3.v20100330-0200-e3x,"org.eclipse.mylyn.discovery.ui",1271718983003
+resolved,bundle,net.sourceforge.texlipse,1.4.0,"net.sourceforge.texlipse",1271718983008
+resolved,bundle,net.sf.jautodoc.velocity,1.7.0,"net.sf.jautodoc.velocity",1271718983009
+resolved,bundle,net.sf.jautodoc,1.7.0,"net.sf.jautodoc",1271718983011
+resolved,bundle,com.python.pydev,1.5.6.2010033101,"com.python.pydev",1271718983013
+resolved,bundle,com.python.pydev.fastparser,1.5.6.2010033101,"com.python.pydev.fastparser",1271718983014
+resolved,bundle,com.python.pydev.debug,1.5.6.2010033101,"com.python.pydev.debug",1271718983015
+resolved,bundle,com.python.pydev.analysis,1.5.6.2010033101,"com.python.pydev.analysis",1271718983017
+resolved,bundle,com.python.pydev.refactoring,1.5.6.2010033101,"com.python.pydev.refactoring",1271718983019
+resolved,bundle,com.python.pydev.codecompletion,1.5.6.2010033101,"com.python.pydev.codecompletion",1271718983020
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1271718983162
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983199
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983199
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983200
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983200
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983201
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983201
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983202
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983202
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983203
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983204
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983204
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983205
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983205
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983206
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983206
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983207
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983207
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983208
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983208
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983209
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983209
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983210
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983211
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983212
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983212
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983212
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983213
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983213
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983213
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983214
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983214
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983214
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983215
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983215
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983215
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983216
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718983357
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718983358
+error,log,,,"The command (""org.eclipse.debug.ui.commands.ToggleLineBreakpoint"") is undefined",1271718983436
+error,log,,,"The command (""org.eclipse.nab.mwt.ab.core.MwtMenuOpenWindow"") is undefined",1271718983488
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718983922
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718983923
+error,log,,,"The command (""org.eclipse.nab.mwt.ab.core.MwtMenuOpenWindow"") is undefined",1271718983933
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983956
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983956
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718983956
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1271718983974
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718984065
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718984066
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718984367
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718984367
+error,log,,,"The command (""org.eclipse.nab.mwt.ab.core.MwtMenuOpenWindow"") is undefined",1271718984374
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718984555
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718984555
+error,log,,,"The command (""org.eclipse.nab.mwt.ab.core.MwtMenuOpenWindow"") is undefined",1271718984559
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718984701
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718984701
+error,log,,,"The command (""org.eclipse.nab.mwt.ab.core.MwtMenuOpenWindow"") is undefined",1271718984706
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718984790
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718984790
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718984961
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718984961
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718985140
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718985141
+error,log,,,"The command (""org.eclipse.nab.mwt.ab.core.MwtMenuOpenWindow"") is undefined",1271718985148
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718985251
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718985252
+error,log,,,"The command (""org.eclipse.nab.mwt.ab.core.MwtMenuOpenWindow"") is undefined",1271718985326
+error,log,,,"Invalid preference page path: org.python.pydev.prefs",1271718985397
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718985440
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718985440
+error,log,,,"The command (""org.eclipse.nab.mwt.ab.core.MwtMenuOpenWindow"") is undefined",1271718985491
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718985601
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718985601
+error,log,,,"The command (""org.eclipse.nab.mwt.ab.core.MwtMenuOpenWindow"") is undefined",1271718985679
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718985781
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718985781
+error,log,,,"The command (""org.eclipse.nab.mwt.ab.core.MwtMenuOpenWindow"") is undefined",1271718985834
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718985888
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718985889
+started,bundle,sf.eclipse.javacc,1.5.22,"sf.eclipse.javacc",1271718986154
+error,log,,,"Invalid preference page path: org.eclipse.jdt.ui.preferences.JavaBasePreferencePage/net.sf.jautodoc.preferences.MainPreferencePage",1271718986172
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718986175
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718986176
+error,log,,,"The command (""org.eclipse.nab.mwt.ab.core.MwtMenuOpenWindow"") is undefined",1271718986246
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718986252
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718986252
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718986344
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718986345
+error,log,,,"The command (""org.eclipse.jdt.ui.navigate.open.type"") is undefined",1271718986413
+error,log,,,"The command (""org.eclipse.mylyn.tasks.ui.command.openTask"") is undefined",1271718986413
+executed,command,org.eclipse.jdt.junit,3.5.1.r351_v20090708-0800,"org.eclipse.jdt.junit.junitShortcut.run",1271718990719
+error,log,,,"Error logged from Debug UI: ",1271718990910
+error,log,,,"Error logged from Debug UI: ",1271718990911
+activated,view,org.eclipse.jdt.junit,3.5.1.r351_v20090708-0800,"org.eclipse.jdt.junit.ResultView",1271718991113
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271718995061
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718995063
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718995063
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718995064
+error,log,,,"Undefined context while filtering dialog/window contexts",1271718995064
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271718995148
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718997642
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998147
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998171
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998204
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998237
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998270
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998304
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998336
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998369
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998402
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998436
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998470
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998503
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998536
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998568
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998602
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998636
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998670
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998702
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998735
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998767
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998800
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998834
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998867
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718998900
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718999111
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718999318
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271718999510
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1271718999915
+activated,view,org.eclipse.jdt.junit,3.5.1.r351_v20090708-0800,"org.eclipse.jdt.junit.ResultView",1271719001725
+error,log,,,"Error logged from Debug UI: ",1271719002821
+error,log,,,"Error logged from Debug UI: ",1271719002828
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719014160
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1271719015030
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271719017966
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271719018393
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271719018680
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1271719019881
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1271719021037
+activated,view,org.eclipse.jdt.junit,3.5.1.r351_v20090708-0800,"org.eclipse.jdt.junit.ResultView",1271719023278
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719023278
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1271719024290
+executed,command,org.eclipse.jdt.junit,3.5.1.r351_v20090708-0800,"org.eclipse.jdt.junit.junitShortcut.run",1271719028280
+error,log,,,"Error logged from Debug UI: ",1271719028419
+error,log,,,"Error logged from Debug UI: ",1271719028420
+activated,view,org.eclipse.jdt.junit,3.5.1.r351_v20090708-0800,"org.eclipse.jdt.junit.ResultView",1271719028610
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719030570
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719030641
+activated,view,org.eclipse.jdt.junit,3.5.1.r351_v20090708-0800,"org.eclipse.jdt.junit.ResultView",1271719033671
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719038057
+started,bundle,org.eclipse.ecf.example.collab,2.0.0.v20090916-2238,"org.eclipse.ecf.example.collab",1271719038637
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719045341
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719045397
+executed,command,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.edit.text.java.open.editor",1271719045413
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719049825
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719049825
+activated,view,org.eclipse.jdt.junit,3.5.1.r351_v20090708-0800,"org.eclipse.jdt.junit.ResultView",1271719055312
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719055312
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1271719056488
+closed,view,org.eclipse.jdt.junit,3.5.1.r351_v20090708-0800,"org.eclipse.jdt.junit.ResultView",1271719056491
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719058012
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719058075
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1271719058100
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719059191
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1271719063119
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719063119
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719065426
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719065482
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1271719065523
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719066521
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1271719071444
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719071444
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719072478
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719072533
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1271719072561
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719073393
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1271719076461
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719076461
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1271719077568

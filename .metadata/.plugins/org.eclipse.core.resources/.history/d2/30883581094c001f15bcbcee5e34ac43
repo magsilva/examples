@@ -1,0 +1,82 @@
+package vending;
+
+public class VendingMachine
+{
+	public static final int COIN_VALUE = 25;
+
+	protected static final int MAX_VALUE = 1000;
+	
+	private int totalValue;
+	
+	private int currentValue;
+	
+	private Dispenser dispenser;
+
+	public VendingMachine()
+	{
+		dispenser = new Dispenser();
+	}
+
+	public int getCurrentValue()
+	{
+		return currentValue;
+	}
+	
+	protected int getTotalValue()
+	{
+		return totalValue;
+	}
+	
+	
+	public boolean insertCoin()
+	{
+		if (currentValue < MAX_VALUE) {
+			currentValue += COIN_VALUE;
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public int returnCoins()
+	{
+		if (currentValue == 0) {
+			return 0;
+		} else {
+			int returnedCoins = 0;
+			returnedCoins = currentValue;
+			currentValue = 0;
+			return returnedCoins;
+		}
+	}
+	
+	public String listItems()
+	{
+		int[] items = dispenser.getValidSelection();
+		int i = 0;
+		StringBuilder sb = new StringBuilder();
+		
+		for (i = 0; i < (items.length - 1); i++) {
+			sb.append(items[i]);
+			sb.append(", ");
+		}
+		sb.append(items[i]);
+		
+		return sb.toString();
+	}
+
+	public boolean vendItem(int selection)
+	{
+		int expense = dispenser.dispense(currentValue, selection);
+		if (expense == 0) {
+			int coins = (Dispenser.VALUE - currentValue) / VendingMachine.COIN_VALUE;
+			return false;
+		} else {
+			totalValue += expense;
+			currentValue -= expense;
+			return true;
+		}
+	}
+
+	
+}

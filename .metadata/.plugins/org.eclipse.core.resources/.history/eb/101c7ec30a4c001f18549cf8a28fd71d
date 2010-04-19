@@ -1,0 +1,22 @@
+<project name="VendingMachine" default="compile" basedir=".">
+	<!-- set global properties for this build -->
+	<property name="src" location="src" />
+	<property name="build" location="bin" />
+	<property name="dist"  location="dist" />
+
+	<target name="compile" description="Compile the source code" >
+		<mkdir dir="${build}" />
+		<javac srcdir="${src}" destdir="${build}" />
+	</target>
+
+	<target name="dist" depends="compile" description="Generate the distribution">
+		<mkdir dir="${dist}" />
+		<jar jarfile="${dist}/${ant.project.name}.jar" basedir="${build}" />
+	</target>
+
+	<target name="clean" description="Clean up" >
+		<delete dir="${build}" />
+		<delete dir="${dist}" />
+	</target>
+</project>
+

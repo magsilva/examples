@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;identifier.IdentifierTest.java&apos; to &apos;IdentifierTest_Functional.java&apos;&#x0A;- Original project: &apos;Identifier&apos;&#x0A;- Original element: &apos;identifier.IdentifierTest.java&apos;&#x0A;- Renamed element: &apos;identifier.IdentifierTest_Functional.java&apos;" description="Rename compilation unit &apos;IdentifierTest.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/test&lt;identifier{IdentifierTest.java" name="IdentifierTest_Functional.java" references="false" stamp="1271719906992" version="1.0"/>
+</session>

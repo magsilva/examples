@@ -1,0 +1,92 @@
+package vending;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class VendingMachineFunctionalTest_EquivalencePartition
+{
+	private VendingMachine machine;
+	
+	@Before
+	public void setUp() throws Exception
+	{
+		machine = new VendingMachine();
+	}
+	
+	@Test
+	public void testVendingMachine()
+	{
+		assertEquals(0, machine.getCurrentValue());
+		assertEquals(0, machine.getTotalValue());
+	}
+
+	@Test
+	public void testInsertCoin()
+	{
+		assertTrue(machine.insertCoin());
+		assertEquals(VendingMachine.COIN_VALUE, machine.getCurrentValue());
+		assertEquals(0, machine.getTotalValue());
+	}
+
+	@Test
+	public void testReturnCoins()
+	{
+		machine.insertCoin();
+		assertEquals(VendingMachine.COIN_VALUE, machine.returnCoins());
+		assertEquals(0, machine.getCurrentValue());
+		assertEquals(0, machine.getTotalValue());
+	}
+
+	@Test
+	public void testListItems()
+	{
+		assertEquals("1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19",
+			machine.listItems());
+	}
+
+	@Test
+	public void testVendItemWithMoneyAndValidSelection()
+	{
+		machine.insertCoin();
+		machine.insertCoin();
+		assertTrue(machine.vendItem(2));
+		assertEquals(0, machine.getCurrentValue());
+		assertEquals(VendingMachine.COIN_VALUE * 2, machine.getTotalValue());
+	}
+
+	@Test
+	public void testVendItemWithMoneyButInvalidSelection()
+	{
+		machine.insertCoin();
+		machine.insertCoin();
+		try {
+			assertFalse(machine.vendItem(5));
+		} catch (Exception e) {
+		}
+		assertEquals(VendingMachine.COIN_VALUE * 2, machine.getCurrentValue());
+		assertEquals(0, machine.getTotalValue());
+	}
+
+	@Test
+	public void testVendItemWithoutMoneyButValidSelection()
+	{
+		machine.insertCoin();
+		assertFalse(machine.vendItem(2));
+		assertEquals(VendingMachine.COIN_VALUE, machine.getCurrentValue());
+		assertEquals(0, machine.getTotalValue());
+	}
+
+	@Test
+	public void testVendItemWithoutMoneyAndInvalidSelection()
+	{
+		machine.insertCoin();
+		try {
+			assertFalse(machine.vendItem(5));
+		} catch (Exception e) {
+		}
+		assertEquals(VendingMachine.COIN_VALUE, machine.getCurrentValue());
+		assertEquals(0, machine.getTotalValue());
+	}
+}
