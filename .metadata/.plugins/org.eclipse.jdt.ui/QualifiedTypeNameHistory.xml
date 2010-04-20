@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="cal.CalTest_Functional"/>
-<fullyQualifiedTypeName name="vending.DispenserFunctionalTest_EquivalencePartition"/>
-<fullyQualifiedTypeName name="org.junit.Before"/>
-<fullyQualifiedTypeName name="org.junit.Ignore"/>
-<fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
-</qualifiedTypeNameHistroy>
