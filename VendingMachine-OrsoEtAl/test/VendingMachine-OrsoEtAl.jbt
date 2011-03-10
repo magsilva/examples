@@ -1,0 +1,349 @@
+<JABUTI>
+    <PROJECT name="/home/magsilva/Projects/Examples/SoftwareTesting/VendingMachine-OrsoEtAl/test/VendingMachine-OrsoEtAl.jbt" type="research" mobility="N" CFGOption="1">
+        <BASE_CLASS name="vending.TestDriver"/>
+        <CLASSPATH path="/home/magsilva/Projects/Examples/SoftwareTesting/VendingMachine-OrsoEtAl/target/test-classes /home/magsilva/Projects/Examples/SoftwareTesting/VendingMachine-OrsoEtAl/target/classes /home/magsilva/Projects/Examples/SoftwareTesting/VendingMachine-OrsoEtAl/src /home/magsilva/Projects/Examples/SoftwareTesting/VendingMachine-OrsoEtAl/test"/>
+        <JUNIT_SRC_DIR dir=""/>
+        <JUNIT_BIN_DIR dir=""/>
+        <JUNIT_TEST_SET name=""/>
+        <JUNIT_JAR name=""/>
+        <AVOIDED_PACKAGES>
+        </AVOIDED_PACKAGES>
+        <INST_CLASS  name="vending.Dispenser" size="1410" checksum="50-0">
+            <EXTEND name="java.lang.Object" level="1"/>
+            <SOURCE name="Dispenser.java"/>
+            <METHOD id="1" name="dispense(II)I">
+                <All-Nodes-ei id="0" totreq="10" act="10" inf="0">
+                    <NODE id="0" label="86" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="1" label="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="2" label="23" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="3" label="48" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="4" label="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="5" label="134" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="6" label="6" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="7" label="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="8" label="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="9" label="0" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Nodes-ei>
+                <All-Nodes-ed id="1" totreq="0" act="0" inf="0">
+                </All-Nodes-ed>
+                <All-Edges-ei id="2" totreq="13" act="13" inf="0">
+                    <EDGE id="0" from="17" to="48" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="1" from="23" to="134" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="2" from="86" to="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="3" from="86" to="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="4" from="6" to="134" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="5" from="0" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="6" from="126" to="134" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="7" from="94" to="134" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="8" from="0" to="6" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="9" from="48" to="86" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="10" from="48" to="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="11" from="56" to="134" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="12" from="17" to="23" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Edges-ei>
+                <All-Edges-ed id="3" totreq="0" act="0" inf="0">
+                </All-Edges-ed>
+                <All-Uses-ei id="4" totreq="23" act="23" inf="0">
+                    <C_USE id="0" var="L@3" def="86" use="134" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="1" var="L@1" def="0" use="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="2" var="L@3" def="0" use="134" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="3" var="L@2" def="0" from="17" to="48" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="4" var="L@2" def="0" from="17" to="23" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="5" var="L@2" def="0" from="48" to="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="6" var="L@2" def="0" from="48" to="86" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="7" var="L@0" def="0" from="48" to="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="8" var="L@0" def="0" from="48" to="86" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="9" var="S@java.lang.System.err" def="0" use="6" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="10" var="S@java.lang.System.err" def="0" use="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="11" var="L@3" def="86" from="86" to="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="12" var="L@3" def="86" from="86" to="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="13" var="S@java.lang.System.err" def="0" use="23" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="14" var="L@2" def="0" use="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="15" var="S@java.lang.System.err" def="0" use="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="16" var="L@2" def="0" use="23" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="17" var="L@1" def="0" from="86" to="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="18" var="L@1" def="0" from="86" to="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="19" var="L@1" def="0" from="0" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="20" var="L@1" def="0" from="0" to="6" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="21" var="L@3" def="86" use="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="22" var="S@java.lang.System.err" def="0" use="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Uses-ei>
+                <All-Uses-ed id="5" totreq="0" act="0" inf="0">
+                </All-Uses-ed>
+                <All-Pot-Uses-ei id="6" totreq="59" act="59" inf="0">
+                    <C_USE id="0" var="L@3" def="86" use="134" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="1" var="L@3" def="86" from="86" to="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="2" var="L@3" def="86" from="86" to="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="3" var="L@2" def="0" use="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="4" var="L@1" def="0" use="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="5" var="L@0" def="0" use="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="6" var="L@3" def="86" use="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="7" var="L@3" def="0" use="134" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="8" var="L@3" def="0" use="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="9" var="L@2" def="0" use="134" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="10" var="L@2" def="0" use="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="11" var="L@3" def="0" use="23" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="12" var="L@1" def="0" use="134" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="13" var="L@3" def="0" from="86" to="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="14" var="L@3" def="0" from="86" to="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="15" var="L@2" def="0" use="23" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="16" var="L@1" def="0" use="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="17" var="L@0" def="0" use="134" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="18" var="L@2" def="0" from="86" to="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="19" var="L@2" def="0" from="86" to="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="20" var="L@1" def="0" use="23" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="21" var="L@0" def="0" use="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="22" var="L@1" def="0" from="86" to="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="23" var="L@1" def="0" from="86" to="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="24" var="L@0" def="0" use="23" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="25" var="L@0" def="0" from="86" to="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="26" var="L@0" def="0" from="86" to="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="27" var="L@3" def="0" use="6" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="28" var="L@3" def="0" from="17" to="48" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="29" var="L@3" def="0" from="17" to="23" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="30" var="L@2" def="0" use="6" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="31" var="L@2" def="0" from="17" to="23" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="32" var="L@2" def="0" from="17" to="48" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="33" var="L@3" def="0" from="48" to="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="34" var="L@3" def="0" from="48" to="86" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="35" var="L@2" def="0" use="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="36" var="L@1" def="0" use="6" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="37" var="L@1" def="0" from="17" to="23" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="38" var="L@1" def="0" from="17" to="48" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="39" var="L@2" def="0" from="48" to="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="40" var="L@2" def="0" from="48" to="86" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="41" var="L@1" def="0" use="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="42" var="L@0" def="0" use="6" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="43" var="L@0" def="0" from="17" to="48" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="44" var="L@0" def="0" from="17" to="23" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="45" var="L@1" def="0" from="48" to="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="46" var="L@1" def="0" from="48" to="86" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="47" var="L@0" def="0" use="126" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="48" var="L@0" def="0" from="48" to="56" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="49" var="L@0" def="0" from="48" to="86" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="50" var="L@3" def="0" from="0" to="6" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="51" var="L@3" def="0" from="0" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="52" var="L@2" def="0" from="0" to="6" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="53" var="L@2" def="0" from="0" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="54" var="L@3" def="86" use="94" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="55" var="L@1" def="0" from="0" to="6" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="56" var="L@1" def="0" from="0" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="57" var="L@0" def="0" from="0" to="6" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="58" var="L@0" def="0" from="0" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Pot-Uses-ei>
+                <All-Pot-Uses-ed id="7" totreq="0" act="0" inf="0">
+                </All-Pot-Uses-ed>
+            </METHOD>
+            <METHOD id="0" name="&lt;init&gt;()V">
+                <All-Nodes-ei id="0" totreq="2" act="2" inf="0">
+                    <NODE id="0" label="4" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="1" label="0" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Nodes-ei>
+                <All-Nodes-ed id="1" totreq="0" act="0" inf="0">
+                </All-Nodes-ed>
+                <All-Edges-ei id="2" totreq="1" act="1" inf="0">
+                    <EDGE id="0" from="0" to="4" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Edges-ei>
+                <All-Edges-ed id="3" totreq="0" act="0" inf="0">
+                </All-Edges-ed>
+                <All-Uses-ei id="4" totreq="1" act="1" inf="0">
+                    <C_USE id="0" var="L@0" def="0" use="4" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Uses-ei>
+                <All-Uses-ed id="5" totreq="0" act="0" inf="0">
+                </All-Uses-ed>
+                <All-Pot-Uses-ei id="6" totreq="1" act="1" inf="0">
+                    <C_USE id="0" var="L@0" def="0" use="4" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Pot-Uses-ei>
+                <All-Pot-Uses-ed id="7" totreq="0" act="0" inf="0">
+                </All-Pot-Uses-ed>
+            </METHOD>
+            <METHOD id="2" name="available(I)Z">
+                <All-Nodes-ei id="0" totreq="6" act="6" inf="0">
+                    <NODE id="0" label="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="1" label="5" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="2" label="0" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="3" label="20" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="4" label="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="5" label="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Nodes-ei>
+                <All-Nodes-ed id="1" totreq="0" act="0" inf="0">
+                </All-Nodes-ed>
+                <All-Edges-ei id="2" totreq="6" act="6" inf="0">
+                    <EDGE id="0" from="5" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="1" from="5" to="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="2" from="0" to="20" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="3" from="17" to="20" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="4" from="20" to="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="5" from="20" to="5" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Edges-ei>
+                <All-Edges-ed id="3" totreq="0" act="0" inf="0">
+                </All-Edges-ed>
+                <All-Uses-ei id="4" totreq="21" act="21" inf="0">
+                    <P_USE id="0" var="L@2" def="17" from="5" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="1" var="L@2" def="17" from="5" to="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="2" var="L@2" def="0" use="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="3" var="L@2" def="17" from="20" to="5" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="4" var="L@2" def="17" from="20" to="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="5" var="L@0.availSelectionVals" def="0" from="5" to="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="6" var="L@0.availSelectionVals" def="0" from="5" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="7" var="L@0.availSelectionVals" def="0" from="20" to="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="8" var="L@0.availSelectionVals" def="0" from="20" to="5" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="9" var="L@2" def="0" from="5" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="10" var="L@2" def="0" from="5" to="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="11" var="L@1" def="0" from="5" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="12" var="L@1" def="0" from="5" to="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="13" var="L@0" def="0" from="5" to="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="14" var="L@0" def="0" from="5" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="15" var="L@2" def="0" from="20" to="5" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="16" var="L@2" def="0" from="20" to="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="17" var="L@0" def="0" from="20" to="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="18" var="L@0" def="0" from="20" to="5" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="19" var="L@0.availSelectionVals[]" def="0" from="5" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="20" var="L@0.availSelectionVals[]" def="0" from="5" to="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Uses-ei>
+                <All-Uses-ed id="5" totreq="0" act="0" inf="0">
+                </All-Uses-ed>
+                <All-Pot-Uses-ei id="6" totreq="27" act="27" inf="0">
+                    <C_USE id="0" var="L@2" def="17" use="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="1" var="L@2" def="17" from="5" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="2" var="L@2" def="17" from="5" to="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="3" var="L@2" def="0" use="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="4" var="L@2" def="17" from="20" to="5" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="5" var="L@2" def="17" from="20" to="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="6" var="L@1" def="0" use="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="7" var="L@2" def="0" use="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="8" var="L@0" def="0" use="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="9" var="L@1" def="0" use="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="10" var="L@0" def="0" use="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="11" var="L@2" def="0" use="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="12" var="L@1" def="0" use="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="13" var="L@0" def="0" use="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="14" var="L@2" def="0" from="5" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="15" var="L@2" def="0" from="5" to="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="16" var="L@1" def="0" from="5" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="17" var="L@1" def="0" from="5" to="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="18" var="L@0" def="0" from="5" to="17" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="19" var="L@0" def="0" from="5" to="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="20" var="L@2" def="0" from="20" to="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="21" var="L@2" def="0" from="20" to="5" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="22" var="L@1" def="0" from="20" to="5" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="23" var="L@1" def="0" from="20" to="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="24" var="L@0" def="0" from="20" to="5" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="25" var="L@0" def="0" from="20" to="29" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="26" var="L@2" def="17" use="15" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Pot-Uses-ei>
+                <All-Pot-Uses-ed id="7" totreq="0" act="0" inf="0">
+                </All-Pot-Uses-ed>
+            </METHOD>
+        </INST_CLASS>
+        <CLASS  name="vending.TestDriver" size="0000" checksum="00000000">
+            <EXTEND name="java.lang.Object" level="1"/>
+        </CLASS>
+        <INST_CLASS  name="vending.VendingMachine" size="1343" checksum="50-0">
+            <EXTEND name="java.lang.Object" level="1"/>
+            <SOURCE name="VendingMachine.java"/>
+            <METHOD id="1" name="insertCoin()V">
+                <All-Nodes-ei id="0" totreq="1" act="1" inf="0">
+                    <NODE id="0" label="0" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Nodes-ei>
+                <All-Nodes-ed id="1" totreq="0" act="0" inf="0">
+                </All-Nodes-ed>
+                <All-Edges-ei id="2" totreq="0" act="0" inf="0">
+                </All-Edges-ei>
+                <All-Edges-ed id="3" totreq="0" act="0" inf="0">
+                </All-Edges-ed>
+                <All-Uses-ei id="4" totreq="0" act="0" inf="0">
+                </All-Uses-ei>
+                <All-Uses-ed id="5" totreq="0" act="0" inf="0">
+                </All-Uses-ed>
+                <All-Pot-Uses-ei id="6" totreq="0" act="0" inf="0">
+                </All-Pot-Uses-ei>
+                <All-Pot-Uses-ed id="7" totreq="0" act="0" inf="0">
+                </All-Pot-Uses-ed>
+            </METHOD>
+            <METHOD id="3" name="vendItem(I)V">
+                <All-Nodes-ei id="0" totreq="1" act="1" inf="0">
+                    <NODE id="0" label="0" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Nodes-ei>
+                <All-Nodes-ed id="1" totreq="0" act="0" inf="0">
+                </All-Nodes-ed>
+                <All-Edges-ei id="2" totreq="0" act="0" inf="0">
+                </All-Edges-ei>
+                <All-Edges-ed id="3" totreq="0" act="0" inf="0">
+                </All-Edges-ed>
+                <All-Uses-ei id="4" totreq="0" act="0" inf="0">
+                </All-Uses-ei>
+                <All-Uses-ed id="5" totreq="0" act="0" inf="0">
+                </All-Uses-ed>
+                <All-Pot-Uses-ei id="6" totreq="0" act="0" inf="0">
+                </All-Pot-Uses-ei>
+                <All-Pot-Uses-ed id="7" totreq="0" act="0" inf="0">
+                </All-Pot-Uses-ed>
+            </METHOD>
+            <METHOD id="2" name="returnCoin()V">
+                <All-Nodes-ei id="0" totreq="4" act="4" inf="0">
+                    <NODE id="0" label="0" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="1" label="18" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="2" label="31" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="3" label="7" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Nodes-ei>
+                <All-Nodes-ed id="1" totreq="0" act="0" inf="0">
+                </All-Nodes-ed>
+                <All-Edges-ei id="2" totreq="4" act="4" inf="0">
+                    <EDGE id="0" from="0" to="18" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="1" from="18" to="31" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="2" from="0" to="7" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <EDGE id="3" from="7" to="31" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Edges-ei>
+                <All-Edges-ed id="3" totreq="0" act="0" inf="0">
+                </All-Edges-ed>
+                <All-Uses-ei id="4" totreq="7" act="7" inf="0">
+                    <C_USE id="0" var="L@0" def="0" use="18" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="1" var="S@java.lang.System.out" def="0" use="18" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="2" var="S@java.lang.System.err" def="0" use="7" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="3" var="L@0.currValue" def="0" from="0" to="18" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="4" var="L@0.currValue" def="0" from="0" to="7" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="5" var="L@0" def="0" from="0" to="18" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="6" var="L@0" def="0" from="0" to="7" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Uses-ei>
+                <All-Uses-ed id="5" totreq="0" act="0" inf="0">
+                </All-Uses-ed>
+                <All-Pot-Uses-ei id="6" totreq="6" act="6" inf="0">
+                    <C_USE id="0" var="L@0" def="0" use="31" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="1" var="L@0" def="0" use="18" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="2" var="L@0.currValue" def="18" use="31" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <C_USE id="3" var="L@0" def="0" use="7" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="4" var="L@0" def="0" from="0" to="18" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <P_USE id="5" var="L@0" def="0" from="0" to="7" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Pot-Uses-ei>
+                <All-Pot-Uses-ed id="7" totreq="0" act="0" inf="0">
+                </All-Pot-Uses-ed>
+            </METHOD>
+            <METHOD id="0" name="&lt;init&gt;()V">
+                <All-Nodes-ei id="0" totreq="2" act="2" inf="0">
+                    <NODE id="0" label="4" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                    <NODE id="1" label="0" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Nodes-ei>
+                <All-Nodes-ed id="1" totreq="0" act="0" inf="0">
+                </All-Nodes-ed>
+                <All-Edges-ei id="2" totreq="1" act="1" inf="0">
+                    <EDGE id="0" from="0" to="4" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Edges-ei>
+                <All-Edges-ed id="3" totreq="0" act="0" inf="0">
+                </All-Edges-ed>
+                <All-Uses-ei id="4" totreq="1" act="1" inf="0">
+                    <C_USE id="0" var="L@0" def="0" use="4" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Uses-ei>
+                <All-Uses-ed id="5" totreq="0" act="0" inf="0">
+                </All-Uses-ed>
+                <All-Pot-Uses-ei id="6" totreq="1" act="1" inf="0">
+                    <C_USE id="0" var="L@0" def="0" use="4" active="Y" covered="N" infeasible="N" effectivetcs=""/>
+                </All-Pot-Uses-ei>
+                <All-Pot-Uses-ed id="7" totreq="0" act="0" inf="0">
+                </All-Pot-Uses-ed>
+            </METHOD>
+        </INST_CLASS>
+        <TEST_SET last_id="0">
+        </TEST_SET>
+    </PROJECT>
+</JABUTI>
